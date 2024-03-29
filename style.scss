@@ -518,6 +518,120 @@ body {
     }
 }
 
+.number {
+    background-image: url(../image/number__fon.jpg);
+
+    &__row {
+        padding: 111px 113px;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: 0;
+        max-width: 351px;
+        width: 100%;
+
+        &-title {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 125%;
+            text-align: center;
+            color: #fff;
+            margin-bottom: 25px;
+        }
+
+        &-subtitle {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 133%;
+            text-align: center;
+            color: #fff;
+            margin-bottom: 15px;
+
+            & span {
+                color: #F7931E;
+            }
+        }
+
+        &-form {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            margin-bottom: 30px;
+
+            & input {
+                background: transparent;
+                border: none;
+                border-bottom: 1px solid #fff;
+                padding: 15px 0;
+                box-sizing: border-box;
+                min-height: 51px;
+
+                &:focus {
+                    outline: none;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 133%;
+                    color: rgba(255, 255, 255, 0.5);
+                    font-family: "Montserrat";
+                }
+            }
+        }
+
+        &-button {
+            display: flex;
+            position: relative;
+            padding: 20px 33px;
+            box-sizing: border-box;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+
+            & svg {
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+
+            & span {
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 125%;
+                text-align: center;
+                position: relative;
+                color: #fff;
+            }
+        }
+
+        &-agree {
+            max-width: 280px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 143%;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.5);
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+
+.contact {
+    &__content {
+        padding: 50px 35px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 59px;
+        left: 176px;
+        background-color: #0C1417;
+        z-index: 1;
+    }
+}
+
 
 
 
@@ -593,4 +707,39 @@ body {
 
 .slider-2 {
     max-width: 362px;
+}
+
+
+
+
+
+
+
+::-webkit-input-placeholder {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 133%;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Montserrat";
+}
+:-moz-placeholder { 
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 133%;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Montserrat";
+}
+::-moz-placeholder { 
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 133%;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Montserrat";
+}
+:-ms-input-placeholder { 
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 133%;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Montserrat";
 }
