@@ -433,6 +433,22 @@ body {
   text-align: center;
   color: #0C1417;
 }
+.season__first-time li:first-child {
+  font-weight: 500;
+}
+.season__first-time li:nth-child(2) {
+  margin-left: 269px;
+}
+.season__first-time li:nth-child(3) {
+  margin-left: 113px;
+  color: #F7931E;
+}
+.season__first-time li:nth-child(4) {
+  margin-left: 110px;
+}
+.season__first-time li:nth-child(5) {
+  margin-left: 110px;
+}
 .season__line {
   width: 1125px;
   height: 1px;
@@ -482,6 +498,43 @@ body {
 }
 .season__second-margin {
   margin-left: 155px !important;
+}
+.season__second-time li:first-child {
+  max-width: 232px;
+  font-weight: 700;
+  text-align: start;
+  color: #F7931E;
+}
+.season__second-time li:nth-child(2) {
+  margin-left: 119px;
+}
+.season__second-time li:nth-child(3) {
+  margin-left: 96px;
+  font-weight: 600;
+}
+.season__second-time li:nth-child(4) {
+  margin-left: 160px;
+}
+.season__second-time li:nth-child(5) {
+  margin-left: 150px;
+}
+.season__second-time2 li:first-child {
+  max-width: 191px;
+  font-weight: 700;
+  color: #0C1417;
+  text-align: start;
+}
+.season__second-time2 li:nth-child(2) {
+  margin-left: 237px;
+}
+.season__second-time2 li:nth-child(3) {
+  margin-left: 177px;
+}
+.season__second-time2 li:nth-child(4) {
+  margin-left: 170px;
+}
+.season__second-time2 li:nth-child(5) {
+  margin-left: 150px;
 }
 .season__subtitle {
   font-weight: 700;
@@ -1100,6 +1153,19 @@ body {
   .season__first li:last-child {
     color: #0C1417;
   }
+  .season__first-time li:nth-child(2) {
+    margin-left: 145px;
+  }
+  .season__first-time li:nth-child(3) {
+    margin-left: 45px;
+    color: #0C1417;
+  }
+  .season__first-time li:nth-child(4) {
+    margin-left: 45px;
+  }
+  .season__first-time li:nth-child(5) {
+    margin-left: 45px;
+  }
   .season__line {
     width: 100vw;
     position: relative;
@@ -1142,6 +1208,46 @@ body {
   }
   .season__second-margin {
     margin-left: 15px !important;
+  }
+  .season__second-time li:first-child {
+    max-width: 226px;
+    color: #0C1417;
+  }
+  .season__second-time li:nth-child(2) {
+    margin-left: 15px;
+    max-width: 115px;
+  }
+  .season__second-time li:nth-child(3) {
+    margin-left: 25px;
+    font-weight: 400;
+    max-width: 115px;
+  }
+  .season__second-time li:nth-child(4) {
+    margin-left: 25px;
+    max-width: 115px;
+  }
+  .season__second-time li:nth-child(5) {
+    margin-left: 50px;
+    max-width: 115px;
+  }
+  .season__second-time2 li:nth-child(1) {
+    max-width: 225px;
+  }
+  .season__second-time2 li:nth-child(2) {
+    margin-left: 15px;
+    max-width: 115px;
+  }
+  .season__second-time2 li:nth-child(3) {
+    margin-left: 25px;
+    max-width: 115px;
+  }
+  .season__second-time2 li:nth-child(4) {
+    margin-left: 25px;
+    max-width: 115px;
+  }
+  .season__second-time2 li:nth-child(5) {
+    margin-left: 50px;
+    max-width: 115px;
   }
   .season__subtitle {
     margin: 60px 0;

@@ -497,6 +497,31 @@ body {
             text-align: center;
             color: #0C1417;
         }
+
+        &-time {
+            & li {
+                &:first-child {
+                    font-weight: 500;
+                }
+
+                &:nth-child(2) {
+                    margin-left: 269px;
+                }
+
+                &:nth-child(3) {
+                    margin-left: 113px;
+                    color: #F7931E;
+                }
+
+                &:nth-child(4) {
+                    margin-left: 110px;
+                }
+
+                &:nth-child(5) {
+                    margin-left: 110px;
+                }
+            }
+        }
     }
 
     &__line {
@@ -560,6 +585,61 @@ body {
 
         &-margin {
             margin-left: 155px !important;
+        }
+
+        &-time {
+            & li {
+                &:first-child {
+                    max-width: 232px;
+                    font-weight: 700;
+                    text-align: start;
+                    color: #F7931E;
+                }
+
+                &:nth-child(2) {
+                    margin-left: 119px;
+                }
+
+                &:nth-child(3) {
+                    margin-left: 96px;
+                    font-weight: 600;
+                }
+
+                &:nth-child(4) {
+                    margin-left: 160px;
+                }
+
+                &:nth-child(5) {
+                    margin-left: 150px;
+                }
+            }
+        }
+
+        &-time2 {
+            & li {
+                &:first-child {
+                    max-width: 191px;
+                    font-weight: 700;
+                    color: #0C1417;
+                    text-align: start;
+                }
+
+                &:nth-child(2) {
+                    margin-left: 237px;
+                }
+
+                &:nth-child(3) {
+                    margin-left: 177px;
+                }
+
+                &:nth-child(4) {
+                    margin-left: 170px;
+                }
+
+                &:nth-child(5) {
+                    margin-left: 150px;
+                }
+            }
         }
     }
 
@@ -1307,6 +1387,27 @@ body {
                     color: #0C1417;
                 }
             }
+
+            &-time {
+                & li {
+                    &:nth-child(2) {
+                        margin-left: 145px;
+                    }
+    
+                    &:nth-child(3) {
+                        margin-left: 45px;
+                        color: #0C1417
+                    }
+    
+                    &:nth-child(4) {
+                        margin-left: 45px;
+                    }
+    
+                    &:nth-child(5) {
+                        margin-left: 45px;
+                    }
+                }
+            }
         }
 
         &__line {
@@ -1361,6 +1462,64 @@ body {
 
             &-margin {
                 margin-left: 15px !important;
+            }
+
+            &-time {
+                & li {
+                    &:first-child {
+                        max-width: 226px;
+                        color: #0C1417;
+                    }
+
+                    &:nth-child(2) {
+                        margin-left: 15px;
+                        max-width: 115px;
+                    }
+
+                    &:nth-child(3) {
+                        margin-left: 25px;
+                        font-weight: 400;
+                        max-width: 115px;
+                    }
+
+                    &:nth-child(4) {
+                        margin-left: 25px;
+                        max-width: 115px;
+                    }
+
+                    &:nth-child(5) {
+                        margin-left: 50px;
+                        max-width: 115px;
+                    }
+                }
+            }
+
+            &-time2 {
+                & li {
+                    &:nth-child(1) {
+                        max-width: 225px;
+                    }
+
+                    &:nth-child(2) {
+                        margin-left: 15px;
+                        max-width: 115px;
+                    }
+
+                    &:nth-child(3) {
+                        margin-left: 25px;
+                        max-width: 115px;
+                    }
+
+                    &:nth-child(4) {
+                        margin-left: 25px;
+                        max-width: 115px;
+                    }
+
+                    &:nth-child(5) {
+                        margin-left: 50px;
+                        max-width: 115px;
+                    }
+                }
             }
         }
 
