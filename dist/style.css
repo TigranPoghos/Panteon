@@ -49,7 +49,8 @@ body {
 }
 
 .container {
-  max-width: 1320px;
+  max-width: 1440px;
+  padding: 0 60px;
   width: 100%;
   box-sizing: border-box;
   margin: 0 auto;
@@ -67,7 +68,13 @@ body {
   width: 100vw;
   z-index: 1000;
 }
-.header__logo:last-child {
+.header__burger {
+  display: none;
+}
+.header__logo img:nth-child(2) {
+  display: none;
+}
+.header__logo img:nth-child(3) {
   display: none;
 }
 .header__row {
@@ -936,6 +943,10 @@ body {
   max-width: 362px;
 }
 
+.swiperGallery1 {
+  margin-bottom: 60px;
+}
+
 ::-webkit-input-placeholder {
   font-weight: 400;
   font-size: 15px;
@@ -968,14 +979,15 @@ body {
   font-family: "Montserrat";
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1439px) and (min-width: 768px) {
   .container {
-    max-width: 738px;
+    max-width: 768px;
+    padding: 0 15px;
   }
   .header__logo img:first-child {
     display: none;
   }
-  .header__logo img:last-child {
+  .header__logo img:nth-child(2) {
     display: block;
   }
   .header__menu-tel {
@@ -1011,6 +1023,9 @@ body {
     width: 129px;
     height: 192px;
     top: 720px;
+  }
+  .head__row {
+    padding-top: 355px;
   }
   .head__title {
     font-size: 58px;
@@ -1361,5 +1376,181 @@ body {
     align-items: end;
     gap: 5px;
     margin-top: 0;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: 320px;
+    padding: 0 15px;
+  }
+  .header__row {
+    align-items: center;
+    padding: 30px 0;
+  }
+  .header__logo img:first-child {
+    display: none;
+  }
+  .header__logo img:nth-child(3) {
+    display: block;
+  }
+  .header__menu {
+    display: none;
+  }
+  .header__menu-tel {
+    display: none;
+  }
+  .header__burger {
+    display: flex;
+  }
+  .head__item-1 {
+    right: 91px;
+    width: 83px;
+    height: 56px;
+  }
+  .head__item-2 {
+    right: 96px;
+    width: 87px;
+    height: 75px;
+  }
+  .head__item-3 {
+    width: 74px;
+    height: 134px;
+    top: 572px;
+  }
+  .head__item-4 {
+    width: 126px;
+    height: 200px;
+    top: 600px;
+  }
+  .head__item-5 {
+    width: 52px;
+    height: 119px;
+    top: 655px;
+  }
+  .head__title {
+    font-size: 48px;
+    line-height: 142%;
+    max-width: 272px;
+    margin-bottom: 23px;
+  }
+  .head__subtitle {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  .head__row {
+    padding-top: 221px;
+    align-items: center;
+  }
+  .head__button {
+    margin-bottom: 150px;
+  }
+  .head__inst {
+    right: 60px;
+    bottom: 54px;
+  }
+  .head__vk {
+    right: 15px;
+    bottom: 50px;
+  }
+  .info__row {
+    flex-wrap: wrap;
+    padding: 0 0 80px 0;
+  }
+  .info__content {
+    order: -1;
+    margin-bottom: 40px;
+    align-items: center;
+    text-align: center;
+    max-width: max-content;
+    margin-top: 89px;
+  }
+  .info__content-title {
+    font-size: 25px;
+    line-height: 136%;
+    margin-bottom: 60px;
+  }
+  .info__content-subtitle {
+    text-align: start;
+  }
+  .info__img-1 {
+    margin-right: 0px;
+    max-width: 290px;
+    margin-top: 0;
+  }
+  .info__img-2 {
+    margin-right: 0;
+    max-width: 290px;
+    margin-top: 30px;
+  }
+  .svg__line {
+    display: none;
+  }
+  .svg__items {
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: center;
+    gap: 0;
+  }
+  .svg__item {
+    gap: 15px;
+    flex-direction: column;
+    text-align: center;
+  }
+  .svg__item:first-child {
+    order: -3;
+    margin-bottom: 60px;
+  }
+  .svg__item:nth-child(2) {
+    order: -1;
+    margin-bottom: 60px;
+  }
+  .svg__item:nth-child(3) {
+    order: -2;
+    margin-bottom: 60px;
+  }
+  .svg__row {
+    padding: 0 29px;
+  }
+  .gallery__row {
+    padding: 90px 0 80px 0;
+  }
+  .gallery__title {
+    margin-bottom: 60px;
+  }
+  .gallery .swiper-button-prev {
+    display: none;
+  }
+  .gallery .swiper-button-next {
+    display: none;
+  }
+  .gallery .swiper-horizontal > .swiper-scrollbar, .gallery .swiper-scrollbar.swiper-scrollbar-horizontal {
+    width: 100%;
+  }
+  .gallery .swiper-scrollbar-drag {
+    width: 102px !important;
+  }
+  .gallery .swiper-wrapper {
+    justify-content: start;
+  }
+  .gallery .swiper-slide {
+    max-width: 200px;
+  }
+  .gallery .slider-2 {
+    max-width: 225px;
+  }
+  .gallery .swiperGallery1 {
+    margin-bottom: 45px;
+  }
+  .gallery__item-1 {
+    top: 754px;
+    width: 32px;
+    height: 106px;
+    stroke-width: 1px;
+    stroke: #fff;
+  }
+  .gallery__item-2 {
+    width: 67px;
+    height: 201px;
+    bottom: -44px;
   }
 }
