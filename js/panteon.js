@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function(){
     
         if (( !clickBody ) && (!click) && (!clickHeader))  {
             burger__jsBody.classList.remove('active')
-            header.classList.toggle('active')
+            header.classList.remove('active')
         }
     })
 
@@ -91,7 +91,7 @@ document.addEventListener("DOMContentLoaded", function(){
     
         if (( !clickfooterBody ) && (!clickfooter) && (!clickInfo))  {
             burger__footerBody.classList.remove('active')
-            footer__info.classList.toggle('active')
+            footer__info.classList.remove('active')
         }
     })
       
