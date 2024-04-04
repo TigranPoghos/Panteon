@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function(){
     
     var swiperGallery1 = new Swiper(".swiperGallery1", {
-        slidesPerView: 1,
+        slidesPerView: 4,
         loop: true,
         spaceBetween: 30,
 
@@ -10,10 +10,11 @@ document.addEventListener("DOMContentLoaded", function(){
             hide: false,
         },
         navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
+            nextEl: ".swiperGallery1 .swiper-button-next",
+            prevEl: ".swiperGallery1 .swiper-button-prev",
         },
     });
+
 
 
     var swiperGallery2 = new Swiper(".swiperGallery2", {
@@ -26,8 +27,8 @@ document.addEventListener("DOMContentLoaded", function(){
             hide: false,
         },
         navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
+            nextEl: ".swiperGallery2 .swiper-button-next",
+            prevEl: ".swiperGallery2 .swiper-button-prev",
         },
     });
 
@@ -38,8 +39,8 @@ document.addEventListener("DOMContentLoaded", function(){
         slidesPerView: 3,
         spaceBetween: 30,
         navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
+            nextEl: ".swiperTrainer swiper-button-next",
+            prevEl: ".swiperTrainer swiper-button-prev",
         },
         breakpoints: {
             768: {
