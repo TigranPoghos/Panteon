@@ -123,6 +123,9 @@ body {
 .footer__burger-body.active {
   display: flex;
 }
+.footer__burger-body {
+  display: none;
+}
 .footer__row {
   padding: 15px 0 50px 0;
 }
@@ -201,6 +204,9 @@ body {
   color: rgba(255, 255, 255, 0.7);
 }
 .footer__info.active {
+  display: none;
+}
+.footer__info .footer__messenger {
   display: none;
 }
 
@@ -841,26 +847,28 @@ body {
   background: none;
   align-items: start;
   text-align: start;
-  margin-bottom: 30px;
+  margin-bottom: 74px;
 }
 .trainer .swiper-button-next {
   position: absolute;
-  right: 674px;
-  bottom: 100px;
+  right: 616px;
+  left: auto;
+  bottom: 0px;
   top: auto;
   display: block;
   color: #fff;
 }
 .trainer .swiper-button-prev {
   position: absolute;
-  left: 674px;
-  bottom: 100px;
+  right: 682px;
+  left: auto;
+  bottom: 0px;
   top: auto;
   display: block;
   color: #fff;
 }
 .trainer__row {
-  padding: 100px 0 158px 0;
+  padding: 100px 0;
 }
 .trainer__title {
   font-weight: 700;
@@ -924,10 +932,6 @@ body {
   object-fit: cover;
 }
 
-.swiper-wrapper {
-  justify-content: center;
-}
-
 .swiper-scrollbar-drag {
   width: 200px !important;
   height: 10px;
@@ -970,6 +974,19 @@ body {
 
 .swiperGallery1 {
   margin-bottom: 60px;
+  padding: 0px 66.5px;
+  box-sizing: border-box;
+}
+.swiperGallery1 .swiper-wrapper {
+  overflow: hidden;
+}
+
+.swiperGallery2 {
+  padding: 0px 77.5px;
+  box-sizing: border-box;
+}
+.swiperGallery2 .swiper-wrapper {
+  overflow: hidden;
 }
 
 ::-webkit-input-placeholder {

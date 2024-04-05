@@ -18,9 +18,9 @@ document.addEventListener("DOMContentLoaded", function(){
 
 
     var swiperGallery2 = new Swiper(".swiperGallery2", {
-        slidesPerView: 1,
+        slidesPerView: 3,
         loop: true,
-        spaceBetween: 30,
+        spaceBetween: 40,
 
         scrollbar: {
             el: ".swiper-scrollbar",
@@ -39,8 +39,8 @@ document.addEventListener("DOMContentLoaded", function(){
         slidesPerView: 3,
         spaceBetween: 30,
         navigation: {
-            nextEl: ".swiperTrainer swiper-button-next",
-            prevEl: ".swiperTrainer swiper-button-prev",
+            nextEl: ".swiperTrainer .swiper-button-next",
+            prevEl: ".swiperTrainer .swiper-button-prev",
         },
         breakpoints: {
             768: {
