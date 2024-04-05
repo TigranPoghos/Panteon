@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function(){
         slidesPerView: 4,
         loop: true,
         spaceBetween: 30,
-
+        width: window.innerWidth,
         scrollbar: {
             el: ".swiper-scrollbar",
             hide: false,
